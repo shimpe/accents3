@@ -28,7 +28,7 @@ def cell1(parts, cell_performer):
 
 
 def cell2(parts, cell_performer):
-    # g
+    # b
     scamp.fork(cell_performer, args=("b5_8", inf, 8, parts, instrument1, key))
     scamp.fork(cell_performer, args=("g4_4 f4_8", inf, 8, parts, instrument2, key))
     scamp.fork(cell_performer, args=("f4_8 d4_8", inf, 8, parts, instrument3, key))
